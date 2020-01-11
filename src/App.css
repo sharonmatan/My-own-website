@@ -1,20 +1,27 @@
-.App {
-  text-align: center;
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+/* body {
+  background-image: url("./Images/1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
 
 .cover {
   display: flex;
   justify-content: center;
   align-content: flex-start;
   flex-wrap: wrap;
-  height: 250px;
+  height: 220px;
   width: 100%;
-  background-color: rgb(207, 205, 205);
+  /* background-color: rgb(207, 205, 205); */
+  background-image: url("https://image.freepik.com/free-vector/stream-binary-code-computer-matrix-background_100823-2535.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .myPhoto {
@@ -28,36 +35,59 @@
 .whiteLine {
   width: 100%;
   height: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: aliceblue;
 }
 
 .nameBox {
   margin: 0 auto;
   transform: translateY(-30px);
   text-align: center;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   z-index: 1;
   width: 30%;
   height: 80px;
   border-radius: 7px;
   background-color: #fabe28;
-  display: flex;
+   display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
 }
 
-.myName {
-  font-size: 35px;
+.myName1:hover,
+.myPro1:hover {
+  color: rgb(40, 185, 185);
+  transform-origin: center;
+  transform: translateZ(5px);
   transform: translateY(5px);
+  transform: translateX(1px);
+  transition: cubic-bezier(1, 0.1, 0.4, 1.4) ease-in-out;
+}
+.myName {
+  /* transform: translateY(-60px);
+  transform: translateZ(80px); */
+  height: 40px;
+  /* width: 10%; */
 }
 
 .myPro {
-  font-size: large;
-  transform: translateY(-30px);
+  height: 40px;
+  width: 100%;
+}
+.myName1 {
+  font-size: 35px;
+  transform: translateY(10px);
+  transition: all 0.3s ease-out;
+}
+
+.myPro1 {
+  font-size: 15px;
+  transform: translateY(-25px);
+  transition: all 0.3s ease-out;
 }
 
 .paragraph {
@@ -65,13 +95,21 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  width: 50vw;
+  height: 40vh;
+  margin: 0 auto;
+}
+.aboutMe{
+  /* margin: 30px 30px; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
-.aboutMe {
+/* .aboutMe {
   width: 65vw;
-  height: 40vh;
-  border: 1px solid black;
-}
+  height: 50vh;
+} */
 
 .btnFlex {
   display: flex;
@@ -85,32 +123,57 @@
   height: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skills {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.App-link {
+.skillBox {
+  width: 220px;
+  height: 160px;
+  border: black 1px solid;
+  margin: 10px;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0 7px 4px #777;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skillBox:hover {
+  border-radius: 9px;
+  box-shadow: 0 18px 14px rgb(74, 81, 99);
+  border: rgb(5, 0, 78) 1.1px solid;
+}
+
+img.image {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 10px 6px -6px #777;
+  border-radius: 7px;
+  /* background-image: url("./Images/1.png"); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.contactImage {
+  width: 50px;
+  height: 50px;
+}
+
+.contactMeLink {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: bold;
+  font-style: oblique;
+  text-decoration: none;
 }

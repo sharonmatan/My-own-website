@@ -1,5 +1,13 @@
 import React from "react";
 
 export default function ContactMe(props) {
-  return <h1 className="Title">{props.title}</h1>
+  return (
+    <div className="skills skillBox">
+      <span>
+        <img className="contactImage" src={props.image} />
+      </span>
+      <h1 className="Title">{props.platform}</h1>
+      <a class ="contactMeLink" href={props.link}>{props.text}</a>
+    </div>
+  );
 }

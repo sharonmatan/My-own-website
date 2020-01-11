@@ -1,5 +1,7 @@
 import React from "react";
 
 export default function Skills(props) {
-  return <h1 className="Title">{props.title}</h1>
+  return (
+      <div className="skillBox"><h2>{props.skill}</h2></div>
+  );
 }
