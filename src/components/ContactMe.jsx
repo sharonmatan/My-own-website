@@ -7,7 +7,7 @@ export default function ContactMe(props) {
         <img className="contactImage" src={props.image} />
       </span>
       <h1 className="Title">{props.platform}</h1>
-      <a class ="contactMeLink" href={props.link}>{props.text}</a>
+      <a className ="contactMeLink" href={props.link}>{props.text}</a>
     </div>
   );
 }

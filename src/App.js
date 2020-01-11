@@ -21,7 +21,7 @@ export default class App extends React.Component {
           // pro="Full Stack Developer"
           image="https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/s960x960/20287005_1387735334628414_4686108785331055776_o.jpg?_nc_cat=100&_nc_ohc=5FvdGYnocwgAX86hzEF&_nc_ht=scontent-lht6-1.xx&_nc_tp=1&oh=2fe8c29beaa36eec10c5dccfe4d07e87&oe=5EAE8019"
         ></Header>
-        <Title title="About Me"></Title>
+        <Title title="About me"></Title>
         <AboutMe
           aboutMe="I'm a junior full-stack developer with a rich tech-stack including Python, JavaScript and React.js among other technologies.
 I'm a team player with a positive attitude and a can-do approach who enjoy solving problems through code and create impactful projects.
@@ -44,12 +44,13 @@ I'm a sports enthusiast, loves music and songwriting"
         <div className="skills">
           <Projects
             link="https://confident-nobel-ead63d.netlify.com"
-            project="Project 1"
-            image=".Images/2.png"
+            project="Memory Game"
+            image="./Images/1.png"
           ></Projects>
           <Projects
-            project="Project 2"
-            image="../../../week 3 - javascript/lecture 5/week 3 assignment/images/phone.jpg"
+          link="https://frosty-carson-37d2c8.netlify.com/"
+            project="Painter 95"
+            image="./Images/github-logo.png"
           ></Projects>
           <Projects
             project="Project 3"
@@ -65,7 +66,7 @@ I'm a sports enthusiast, loves music and songwriting"
           ></Projects>
           <Projects
             project="Project 6"
-            image="../../../week 3 - javascript/lecture 5/week 3 assignment/images/phone.jpg"
+            image="../../../week 5 - javascript/lecture 5 - memory game/week 5 assignment - FINAL/images/logo.png"
           ></Projects>
         </div>
 
