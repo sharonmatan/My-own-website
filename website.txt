@@ -1,0 +1,6 @@
+On the one hand, we have been given a mission that will serve us in the future and I am happy about that. 
+On the other hand, we reiterated a technology that we know and it feels like we have been standing in the same place for two weeks.
+I chose to do the task in React to practice what we were learned.
+It Was very challenging, I was delighted to discover new features on the web.
+I need to fill some links and photos, but this is the basic style for my future web.
+Waiting in anticipation for React's week.
